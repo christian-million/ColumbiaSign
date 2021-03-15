@@ -1,0 +1,15 @@
+{ 
+"duration_cycle": {"value": 20, "desc": "The number of seconds each slide is visible for."},
+"duration_visibility": {"value": 60, "desc": "The number of seconds students can see the sign on their way to campus."},
+"sd_visibility": {"value": 5, "desc": "The standard deviation of sign visibility duration."},
+"duration_timely": {"value": 0, "desc": "The number of seconds students arrive on schedule."},
+"sd_timely": {"value": 360, "desc": "The standard deviation of student timeliness."},
+"n_slides": {"value": 20, "desc": "The number of slides programmed into the sign."},
+"weeks": {"value": 1, "desc": "Number of weeks to run the simulation for."},
+"school_days": {"value": 4, "desc": "The number of days each student comes to school in a week."},
+"n_students": {"value": 100, "desc": "The number of students coming to school in a week."},
+"daily_start_time": {"value": "7:00", "desc": "Earliest arrival time each morning for students."},
+"daily_end_time": {"value": "21:00", "desc": "Latest arrival time each evening for students."},
+"weekdays": {"value": [1, 2, 3, 4, 5], "desc": "Days of the week (Sunday=0, Saturday=6) that school is open."},
+"sign_reset": {"value": true, "desc": "Does the sign start at first slide each day?"}
+}
